@@ -1,26 +1,23 @@
 # Binaries
-plugin-slack
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary
 *.test
-
-# Output of go coverage tool
 *.out
+/dist/
 
-# Go workspace file
-go.work
-go.work.sum
-
-# Dependency directories
-vendor/
+# Internal dev artifacts — not for public repos
+AGENTS.md
+CURRENT_STATE.md
+NEXT_SESSION.md
+ROADMAP.md
+docs/execution-log/
+docs/phase-zero/
+docs/research/
 
 # IDE
 .idea/
 .vscode/
 *.swp
-*.swo
+.DS_Store
+
+# Plugin binary
+plugin-slack
